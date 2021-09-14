@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Lato:wght@400;700&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+
+.container {
+    font-family: 'Press Start 2P', cursive;
+    color: lime;
+    font-size: 15px;
+    text-align: center;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+header ul {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+header li {
+    list-style: none;
+    padding: 0 30px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header .highlight, header #current a {
+    color:gray;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ccc;
+    font-weight: bold;
+}
+
+/* About */
+#about {
+    background-color: whitesmoke
+}
+
+.container .main-col {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+
+#about .sidebar {
+    margin-top: 10px;
+}
+
+#about div {
+    color: burlywood;
+    font-size: 40px;
+    margin: 10px 0;
+}
+
+/* Calendar */
+#calendar {
+    border-top: 5px solid gray;
+    padding: 20px;
+}
+
+/* Contact */
+#contact {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    display: flexbox;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 5px solid gray;
+    padding: 20px;
+}
+
+/* Social  Media */
+#contact i {
+    color: black;
+    font-size: 35px;
+    margin: 0 10px;
+}
+#social {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color:black;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#social div i {
+    color: black;
+}
+
+#logo {
+    display: flex;
+    float: right;
+    align-items: flex-end;
+}
+
+
+
