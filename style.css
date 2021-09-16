@@ -76,6 +76,7 @@ header a:hover {
     font-size: 20px;
     opacity: 100%;
     text-shadow: 0.3px 0.3px 0.3px #000;
+    padding-top: 45px;
 }
 
 #about .sidebar {
