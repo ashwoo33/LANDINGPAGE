@@ -8,11 +8,15 @@
     color: lime;
     font-size: 15px;
     text-align: center;
+    
 }
 header .container {
     display: flex;
     justify-content: space-between;
     background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 header ul {
@@ -45,14 +49,33 @@ header a:hover {
 }
 
 /* About */
+#calendar .background {
+    position: fixed;
+    top: 40.5%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 1024px;
+    height: 100%;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('Drinkngame_background_cal_trans_lightbars.png') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+    opacity: 87%; 
+
+}
+
 #about {
-    background-color: whitesmoke
+    /* background-color: white; */
 }
 
 .container .main-col {
     font-family: 'Lato', sans-serif;
-    color: black;
+    color: white;
     font-size: 20px;
+    opacity: 100%;
+    text-shadow: 0.3px 0.3px 0.3px #000;
 }
 
 #about .sidebar {
@@ -67,45 +90,60 @@ header a:hover {
 
 /* Calendar */
 #calendar {
-    border-top: 5px solid gray;
     padding: 20px;
 }
 
-/* Contact */
+/* CONTACT/SOCIAL MEDIA */
 #contact {
     font-family: 'Lato', sans-serif;
     font-size: 25px;
     display: flexbox;
-    color: black;
+    color: white;
     justify-content: space-evenly;
     align-items: center;
-    border-top: 5px solid gray;
-    padding: 20px;
 }
 
-/* Social  Media */
 #contact i {
-    color: black;
-    font-size: 35px;
-    margin: 0 10px;
-}
-#social {
-    font-family: 'Lato', sans-serif;
+    color:limegreen;
     font-size: 20px;
-    color:black;
-    justify-content: space-evenly;
-    align-items: center;
+    margin:0 10px;
+}
+
+#contact p {
+    font-size: 15px;
 }
 
 #social div i {
-    color: black;
+    color: limegreen;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 10px;
 }
 
-#logo {
-    display: flex;
-    float: right;
-    align-items: flex-end;
+/* FOOTER */
+.footer h2 {
+    color: white;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    column-count: 3;
+    column-gap: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1.5px solid gray;
+    margin-bottom: -80px;
+    margin-right: -80px;
+}
+
 
 
 
